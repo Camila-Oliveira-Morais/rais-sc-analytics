@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+data/raw/
+data/output/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+*.sqlite
+*.log
+Thumbs.db
+Desktop.ini

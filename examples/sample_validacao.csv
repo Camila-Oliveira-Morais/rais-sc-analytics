@@ -1,0 +1,5 @@
+indicador,valor,observacao
+municipios_unicos,295,Quantidade de municipios unicos no arquivo geral SC.
+total_vinculos_geral,880597,Soma da coluna qtd_vinculos.
+media_salarial_geral,3506.474431,Media ponderada por qtd_vinculos da coluna remuneracao_media_nom_ano.
+mesorregioes_unicas,6,Quantidade de mesorregioes unicas no arquivo geral SC.

@@ -1,0 +1,5 @@
+ano_referencia,municipio_codigo,municipio_nome,mesorregiao_nome,cbo_ocupacao_codigo,cbo_ocupacao_nome,cnae_divisao_codigo,cnae_divisao_nome,cnae_subclasse_codigo,cnae_subclasse_nome,qtd_vinculos,remuneracao_media_nom_ano
+2024,420005,Abdon Batista,Serrana,214205,Engenheiro Civil,35,"ELETRICIDADE, GAS E OUTRAS UTILIDADES",3511501,Geracao de energia eletrica,1,21356.47
+2024,420020,Agrolandia,Vale do Itajai,313120,Tecnico de Manutencao Eletrica,35,"ELETRICIDADE, GAS E OUTRAS UTILIDADES",3512300,Transmissao de energia eletrica,2,8450.11
+2024,420540,Florianopolis,Grande Florianopolis,950105,Supervisor de manutencao eletrica,35,"ELETRICIDADE, GAS E OUTRAS UTILIDADES",3511501,Geracao de energia eletrica,4,12780.35
+2024,421620,Sao Francisco do Sul,Norte Catarinense,142105,Gerente de producao,33,"MANUTENCAO, REPARACAO E INSTALACAO DE MAQUINAS E EQUIPAMENTOS",3314718,Manutencao e reparacao de maquinas para uso geral,3,13635.00

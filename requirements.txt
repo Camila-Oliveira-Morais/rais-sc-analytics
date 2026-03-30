@@ -1,0 +1,7 @@
+pandas
+python-dotenv
+tqdm
+openpyxl
+XlsxWriter
+py7zr
+xlrd

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coleta-rais-sc"
+version = "0.1.0"
+description = "Ferramentas para extracao e consolidacao da RAIS com foco em Santa Catarina."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Camila O. Morais" }
+]
+dependencies = [
+  "pandas",
+  "python-dotenv",
+  "tqdm",
+  "openpyxl",
+  "XlsxWriter",
+  "py7zr",
+  "xlrd",
+]
+
+[tool.setuptools]
+py-modules = []
+
+[tool.setuptools.packages.find]
+where = ["src"]

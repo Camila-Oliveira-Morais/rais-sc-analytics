@@ -1,0 +1,296 @@
+municipio_codigo,municipio_nome,mesorregiao_id,mesorregiao_nome
+420005,Abdon Batista,4203,Serrana
+420010,Abelardo Luz,4201,Oeste Catarinense
+420020,Agrolândia,4204,Vale do Itajaí
+420030,Agronômica,4204,Vale do Itajaí
+420070,Alfredo Wagner,4205,Grande Florianópolis
+420075,Alto Bela Vista,4201,Oeste Catarinense
+420080,Anchieta,4201,Oeste Catarinense
+420090,Angelina,4205,Grande Florianópolis
+420100,Anita Garibaldi,4203,Serrana
+420110,Anitápolis,4205,Grande Florianópolis
+420120,Antônio Carlos,4205,Grande Florianópolis
+420125,Apiúna,4204,Vale do Itajaí
+420127,Arabutã,4201,Oeste Catarinense
+420130,Araquari,4202,Norte Catarinense
+420140,Araranguá,4206,Sul Catarinense
+420150,Armazém,4206,Sul Catarinense
+420160,Arroio Trinta,4201,Oeste Catarinense
+420165,Arvoredo,4201,Oeste Catarinense
+420170,Ascurra,4204,Vale do Itajaí
+420180,Atalanta,4204,Vale do Itajaí
+420190,Aurora,4204,Vale do Itajaí
+420195,Balneário Arroio do Silva,4206,Sul Catarinense
+420205,Balneário Barra do Sul,4202,Norte Catarinense
+420200,Balneário Camboriú,4204,Vale do Itajaí
+420207,Balneário Gaivota,4206,Sul Catarinense
+421280,Balneário Piçarras,4204,Vale do Itajaí
+422000,Balneário Rincão,4206,Sul Catarinense
+420208,Bandeirante,4201,Oeste Catarinense
+420209,Barra Bonita,4201,Oeste Catarinense
+420210,Barra Velha,4204,Vale do Itajaí
+420213,Bela Vista do Toldo,4202,Norte Catarinense
+420215,Belmonte,4201,Oeste Catarinense
+420220,Benedito Novo,4204,Vale do Itajaí
+420230,Biguaçu,4205,Grande Florianópolis
+420240,Blumenau,4204,Vale do Itajaí
+420243,Bocaina do Sul,4203,Serrana
+420250,Bom Jardim da Serra,4203,Serrana
+420253,Bom Jesus,4201,Oeste Catarinense
+420257,Bom Jesus do Oeste,4201,Oeste Catarinense
+420260,Bom Retiro,4203,Serrana
+420245,Bombinhas,4204,Vale do Itajaí
+420270,Botuverá,4204,Vale do Itajaí
+420280,Braço do Norte,4206,Sul Catarinense
+420285,Braço do Trombudo,4204,Vale do Itajaí
+420287,Brunópolis,4203,Serrana
+420290,Brusque,4204,Vale do Itajaí
+420310,Caibi,4201,Oeste Catarinense
+420315,Calmon,4201,Oeste Catarinense
+420320,Camboriú,4204,Vale do Itajaí
+420330,Campo Alegre,4202,Norte Catarinense
+420340,Campo Belo do Sul,4203,Serrana
+420350,Campo Erê,4201,Oeste Catarinense
+420360,Campos Novos,4203,Serrana
+420370,Canelinha,4205,Grande Florianópolis
+420380,Canoinhas,4202,Norte Catarinense
+420390,Capinzal,4201,Oeste Catarinense
+420395,Capivari de Baixo,4206,Sul Catarinense
+420325,Capão Alto,4203,Serrana
+420400,Catanduvas,4201,Oeste Catarinense
+420410,Caxambu do Sul,4201,Oeste Catarinense
+420300,Caçador,4201,Oeste Catarinense
+420415,Celso Ramos,4203,Serrana
+420417,Cerro Negro,4203,Serrana
+420419,Chapadão do Lageado,4204,Vale do Itajaí
+420420,Chapecó,4201,Oeste Catarinense
+420425,Cocal do Sul,4206,Sul Catarinense
+420430,Concórdia,4201,Oeste Catarinense
+420435,Cordilheira Alta,4201,Oeste Catarinense
+420440,Coronel Freitas,4201,Oeste Catarinense
+420445,Coronel Martins,4201,Oeste Catarinense
+420455,Correia Pinto,4203,Serrana
+420450,Corupá,4202,Norte Catarinense
+420460,Criciúma,4206,Sul Catarinense
+420470,Cunha Porã,4201,Oeste Catarinense
+420475,Cunhataí,4201,Oeste Catarinense
+420480,Curitibanos,4203,Serrana
+420490,Descanso,4201,Oeste Catarinense
+420500,Dionísio Cerqueira,4201,Oeste Catarinense
+420510,Dona Emma,4204,Vale do Itajaí
+420515,Doutor Pedrinho,4204,Vale do Itajaí
+420517,Entre Rios,4201,Oeste Catarinense
+420519,Ermo,4206,Sul Catarinense
+420520,Erval Velho,4201,Oeste Catarinense
+420530,Faxinal dos Guedes,4201,Oeste Catarinense
+420535,Flor do Sertão,4201,Oeste Catarinense
+420540,Florianópolis,4205,Grande Florianópolis
+420543,Formosa do Sul,4201,Oeste Catarinense
+420545,Forquilhinha,4206,Sul Catarinense
+420550,Fraiburgo,4201,Oeste Catarinense
+420555,Frei Rogério,4203,Serrana
+420560,Galvão,4201,Oeste Catarinense
+420570,Garopaba,4206,Sul Catarinense
+420580,Garuva,4202,Norte Catarinense
+420590,Gaspar,4204,Vale do Itajaí
+420600,Governador Celso Ramos,4205,Grande Florianópolis
+420620,Gravatal,4206,Sul Catarinense
+420610,Grão-Pará,4206,Sul Catarinense
+420630,Guabiruba,4204,Vale do Itajaí
+420640,Guaraciaba,4201,Oeste Catarinense
+420650,Guaramirim,4202,Norte Catarinense
+420660,Guarujá do Sul,4201,Oeste Catarinense
+420665,Guatambú,4201,Oeste Catarinense
+420670,Herval d'Oeste,4201,Oeste Catarinense
+420675,Ibiam,4201,Oeste Catarinense
+420680,Ibicaré,4201,Oeste Catarinense
+420690,Ibirama,4204,Vale do Itajaí
+420710,Ilhota,4204,Vale do Itajaí
+420720,Imaruí,4206,Sul Catarinense
+420730,Imbituba,4206,Sul Catarinense
+420740,Imbuia,4204,Vale do Itajaí
+420750,Indaial,4204,Vale do Itajaí
+420757,Iomerê,4201,Oeste Catarinense
+420760,Ipira,4201,Oeste Catarinense
+420765,Iporã do Oeste,4201,Oeste Catarinense
+420768,Ipuaçu,4201,Oeste Catarinense
+420770,Ipumirim,4201,Oeste Catarinense
+420775,Iraceminha,4201,Oeste Catarinense
+420780,Irani,4201,Oeste Catarinense
+420785,Irati,4201,Oeste Catarinense
+420790,Irineópolis,4202,Norte Catarinense
+420810,Itaiópolis,4202,Norte Catarinense
+420820,Itajaí,4204,Vale do Itajaí
+420830,Itapema,4204,Vale do Itajaí
+420840,Itapiranga,4201,Oeste Catarinense
+420845,Itapoá,4202,Norte Catarinense
+420850,Ituporanga,4204,Vale do Itajaí
+420800,Itá,4201,Oeste Catarinense
+420700,Içara,4206,Sul Catarinense
+420860,Jaborá,4201,Oeste Catarinense
+420870,Jacinto Machado,4206,Sul Catarinense
+420880,Jaguaruna,4206,Sul Catarinense
+420890,Jaraguá do Sul,4202,Norte Catarinense
+420895,Jardinópolis,4201,Oeste Catarinense
+420900,Joaçaba,4201,Oeste Catarinense
+420910,Joinville,4202,Norte Catarinense
+420915,José Boiteux,4204,Vale do Itajaí
+420917,Jupiá,4201,Oeste Catarinense
+420920,Lacerdópolis,4201,Oeste Catarinense
+420930,Lages,4203,Serrana
+420940,Laguna,4206,Sul Catarinense
+420945,Lajeado Grande,4201,Oeste Catarinense
+420950,Laurentino,4204,Vale do Itajaí
+420960,Lauro Müller,4206,Sul Catarinense
+420970,Lebon Régis,4201,Oeste Catarinense
+420980,Leoberto Leal,4205,Grande Florianópolis
+420985,Lindóia do Sul,4201,Oeste Catarinense
+420990,Lontras,4204,Vale do Itajaí
+421000,Luiz Alves,4204,Vale do Itajaí
+421003,Luzerna,4201,Oeste Catarinense
+421005,Macieira,4201,Oeste Catarinense
+421010,Mafra,4202,Norte Catarinense
+421020,Major Gercino,4205,Grande Florianópolis
+421030,Major Vieira,4202,Norte Catarinense
+421040,Maracajá,4206,Sul Catarinense
+421050,Maravilha,4201,Oeste Catarinense
+421055,Marema,4201,Oeste Catarinense
+421060,Massaranduba,4202,Norte Catarinense
+421070,Matos Costa,4201,Oeste Catarinense
+421080,Meleiro,4206,Sul Catarinense
+421085,Mirim Doce,4204,Vale do Itajaí
+421090,Modelo,4201,Oeste Catarinense
+421100,Mondaí,4201,Oeste Catarinense
+421105,Monte Carlo,4203,Serrana
+421110,Monte Castelo,4202,Norte Catarinense
+421125,Morro Grande,4206,Sul Catarinense
+421120,Morro da Fumaça,4206,Sul Catarinense
+421130,Navegantes,4204,Vale do Itajaí
+421140,Nova Erechim,4201,Oeste Catarinense
+421145,Nova Itaberaba,4201,Oeste Catarinense
+421150,Nova Trento,4205,Grande Florianópolis
+421160,Nova Veneza,4206,Sul Catarinense
+421165,Novo Horizonte,4201,Oeste Catarinense
+421170,Orleans,4206,Sul Catarinense
+421175,Otacílio Costa,4203,Serrana
+421180,Ouro,4201,Oeste Catarinense
+421185,Ouro Verde,4201,Oeste Catarinense
+421187,Paial,4201,Oeste Catarinense
+421189,Painel,4203,Serrana
+421190,Palhoça,4205,Grande Florianópolis
+421200,Palma Sola,4201,Oeste Catarinense
+421205,Palmeira,4203,Serrana
+421210,Palmitos,4201,Oeste Catarinense
+421220,Papanduva,4202,Norte Catarinense
+421223,Paraíso,4201,Oeste Catarinense
+421225,Passo de Torres,4206,Sul Catarinense
+421227,Passos Maia,4201,Oeste Catarinense
+421230,Paulo Lopes,4205,Grande Florianópolis
+421240,Pedras Grandes,4206,Sul Catarinense
+421250,Penha,4204,Vale do Itajaí
+421260,Peritiba,4201,Oeste Catarinense
+421265,Pescaria Brava,4206,Sul Catarinense
+421270,Petrolândia,4204,Vale do Itajaí
+421290,Pinhalzinho,4201,Oeste Catarinense
+421300,Pinheiro Preto,4201,Oeste Catarinense
+421310,Piratuba,4201,Oeste Catarinense
+421315,Planalto Alegre,4201,Oeste Catarinense
+421320,Pomerode,4204,Vale do Itajaí
+421330,Ponte Alta,4203,Serrana
+421335,Ponte Alta do Norte,4203,Serrana
+421340,Ponte Serrada,4201,Oeste Catarinense
+421350,Porto Belo,4204,Vale do Itajaí
+421360,Porto União,4202,Norte Catarinense
+421370,Pouso Redondo,4204,Vale do Itajaí
+421380,Praia Grande,4206,Sul Catarinense
+421390,Presidente Castello Branco,4201,Oeste Catarinense
+421400,Presidente Getúlio,4204,Vale do Itajaí
+421410,Presidente Nereu,4204,Vale do Itajaí
+421415,Princesa,4201,Oeste Catarinense
+421420,Quilombo,4201,Oeste Catarinense
+421430,Rancho Queimado,4205,Grande Florianópolis
+421490,Rio Fortuna,4206,Sul Catarinense
+421500,Rio Negrinho,4202,Norte Catarinense
+421505,Rio Rufino,4203,Serrana
+421440,Rio das Antas,4201,Oeste Catarinense
+421450,Rio do Campo,4204,Vale do Itajaí
+421460,Rio do Oeste,4204,Vale do Itajaí
+421480,Rio do Sul,4204,Vale do Itajaí
+421470,Rio dos Cedros,4204,Vale do Itajaí
+421507,Riqueza,4201,Oeste Catarinense
+421510,Rodeio,4204,Vale do Itajaí
+421520,Romelândia,4201,Oeste Catarinense
+421530,Salete,4204,Vale do Itajaí
+421535,Saltinho,4201,Oeste Catarinense
+421540,Salto Veloso,4201,Oeste Catarinense
+421545,Sangão,4206,Sul Catarinense
+421550,Santa Cecília,4203,Serrana
+421555,Santa Helena,4201,Oeste Catarinense
+421560,Santa Rosa de Lima,4206,Sul Catarinense
+421565,Santa Rosa do Sul,4206,Sul Catarinense
+421567,Santa Terezinha,4202,Norte Catarinense
+421568,Santa Terezinha do Progresso,4201,Oeste Catarinense
+421569,Santiago do Sul,4201,Oeste Catarinense
+421570,Santo Amaro da Imperatriz,4205,Grande Florianópolis
+421730,Saudades,4201,Oeste Catarinense
+421740,Schroeder,4202,Norte Catarinense
+421750,Seara,4201,Oeste Catarinense
+421755,Serra Alta,4201,Oeste Catarinense
+421760,Siderópolis,4206,Sul Catarinense
+421770,Sombrio,4206,Sul Catarinense
+421775,Sul Brasil,4201,Oeste Catarinense
+421580,São Bento do Sul,4202,Norte Catarinense
+421575,São Bernardino,4201,Oeste Catarinense
+421590,São Bonifácio,4205,Grande Florianópolis
+421600,São Carlos,4201,Oeste Catarinense
+421605,São Cristóvão do Sul,4203,Serrana
+421610,São Domingos,4201,Oeste Catarinense
+421620,São Francisco do Sul,4202,Norte Catarinense
+421650,São Joaquim,4203,Serrana
+421660,São José,4205,Grande Florianópolis
+421670,São José do Cedro,4201,Oeste Catarinense
+421680,São José do Cerrito,4203,Serrana
+421630,São João Batista,4205,Grande Florianópolis
+421635,São João do Itaperiú,4204,Vale do Itajaí
+421625,São João do Oeste,4201,Oeste Catarinense
+421640,São João do Sul,4206,Sul Catarinense
+421690,São Lourenço do Oeste,4201,Oeste Catarinense
+421700,São Ludgero,4206,Sul Catarinense
+421710,São Martinho,4206,Sul Catarinense
+421715,São Miguel da Boa Vista,4201,Oeste Catarinense
+421720,São Miguel do Oeste,4201,Oeste Catarinense
+421725,São Pedro de Alcântara,4205,Grande Florianópolis
+421780,Taió,4204,Vale do Itajaí
+421790,Tangará,4201,Oeste Catarinense
+421795,Tigrinhos,4201,Oeste Catarinense
+421800,Tijucas,4205,Grande Florianópolis
+421810,Timbé do Sul,4206,Sul Catarinense
+421820,Timbó,4204,Vale do Itajaí
+421825,Timbó Grande,4202,Norte Catarinense
+421835,Treviso,4206,Sul Catarinense
+421850,Treze Tílias,4201,Oeste Catarinense
+421840,Treze de Maio,4206,Sul Catarinense
+421860,Trombudo Central,4204,Vale do Itajaí
+421830,Três Barras,4202,Norte Catarinense
+421870,Tubarão,4206,Sul Catarinense
+421875,Tunápolis,4201,Oeste Catarinense
+421880,Turvo,4206,Sul Catarinense
+421885,União do Oeste,4201,Oeste Catarinense
+421890,Urubici,4203,Serrana
+421895,Urupema,4203,Serrana
+421900,Urussanga,4206,Sul Catarinense
+421915,Vargem,4203,Serrana
+421917,Vargem Bonita,4201,Oeste Catarinense
+421910,Vargeão,4201,Oeste Catarinense
+421920,Vidal Ramos,4204,Vale do Itajaí
+421930,Videira,4201,Oeste Catarinense
+421935,Vitor Meireles,4204,Vale do Itajaí
+421940,Witmarsum,4204,Vale do Itajaí
+421950,Xanxerê,4201,Oeste Catarinense
+421960,Xavantina,4201,Oeste Catarinense
+421970,Xaxim,4201,Oeste Catarinense
+421985,Zortéa,4203,Serrana
+420040,Água Doce,4201,Oeste Catarinense
+420055,Águas Frias,4201,Oeste Catarinense
+420060,Águas Mornas,4205,Grande Florianópolis
+420050,Águas de Chapecó,4201,Oeste Catarinense
