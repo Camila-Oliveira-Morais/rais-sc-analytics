@@ -6,7 +6,7 @@ from pathlib import Path
 import pandas as pd
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 INPUT_FILE = PROJECT_ROOT / "data" / "output" / "remuneracao_media_ano_industrial_sc_cbo_ocupacao_2024.xlsx"
 OUTPUT_FILE = PROJECT_ROOT / "data" / "output" / "validacao.xlsx"
 

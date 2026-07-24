@@ -26,7 +26,11 @@ IBGE_MUNICIPIOS_URL = "http://servicodados.ibge.gov.br/api/v1/localidades/mesorr
 
 RAIS_COLUMN_CANDIDATES = {
     "cnae_classe_codigo": ["CNAE 2.0 Classe - Código", "CNAE 2.0 Classe"],
-    "cnae_subclasse_codigo": ["CNAE 2.0 Subclasse - Código", "CNAE 2.0 Subclasse"],
+    "cnae_subclasse_codigo": [
+        "CNAE 2.0 Subclasse - Código",
+        "CNAE 2.0 Subclasse - Codigo",
+        "CNAE 2.0 Subclasse",
+    ],
     "ind_atividade_ano": ["Ind Atividade Ano - Código", "Ind Atividade Ano"],
     "ind_rais_negativa": ["Ind RAIS Negativa - Código", "Ind Rais Negativa"],
     "municipio_codigo": ["Município - Código", "Município"],
@@ -96,6 +100,22 @@ class PipelineConfig:
         else:
             suffix = f"{self.years[0]}_{self.years[-1]}"
         return self.output_dir / f"rais_estabelecimentos_sc_{suffix}.sqlite"
+
+    @property
+    def output_long_workbook_path(self) -> Path:
+        if len(self.years) == 1:
+            suffix = self.years[0]
+        else:
+            suffix = f"{self.years[0]}_{self.years[-1]}"
+        return self.output_dir / f"rais_estabelecimentos_sc_municipio_divisao_long_{suffix}.xlsx"
+
+    @property
+    def output_long_csv_path(self) -> Path:
+        if len(self.years) == 1:
+            suffix = self.years[0]
+        else:
+            suffix = f"{self.years[0]}_{self.years[-1]}"
+        return self.output_dir / f"rais_estabelecimentos_sc_municipio_divisao_long_{suffix}.csv"
 
     def raw_dir_for_year(self, year: str) -> Path:
         return self.project_root / "data" / "raw" / year
@@ -735,6 +755,50 @@ def write_summary_sheet(
             worksheet.write(34 + row_offset, col_offset, value, cell_format)
 
 
+def build_long_municipio_divisao(grouped_data: dict[str, pd.DataFrame]) -> pd.DataFrame:
+    municipio_divisao = grouped_data["municipio_divisao"].copy()
+    if municipio_divisao.empty:
+        return pd.DataFrame(
+            columns=[
+                "ano_referencia",
+                "municipio_codigo",
+                "municipio_nome",
+                "mesorregiao_nome",
+                "cnae_divisao_codigo",
+                "cnae_divisao_nome",
+                "indicador",
+                "quantidade",
+            ]
+        )
+
+    long_metric_map = {
+        "estabelecimentos": "estabelecimentos",
+        "qtd_vinculos_ativos": "vinculos_ativos",
+    }
+    long_frame = municipio_divisao.melt(
+        id_vars=[
+            "ano_referencia",
+            "municipio_codigo",
+            "municipio_nome",
+            "mesorregiao_nome",
+            "cnae_divisao_codigo",
+            "cnae_divisao_nome",
+        ],
+        value_vars=list(long_metric_map.keys()),
+        var_name="indicador",
+        value_name="quantidade",
+    )
+    long_frame["indicador"] = long_frame["indicador"].map(long_metric_map)
+    return long_frame.sort_values(
+        [
+            "ano_referencia",
+            "municipio_nome",
+            "cnae_divisao_codigo",
+            "indicador",
+        ]
+    ).reset_index(drop=True)
+
+
 def export_to_excel(
     grouped_data: dict[str, pd.DataFrame],
     negative_grouped_data: dict[str, pd.DataFrame],
@@ -785,6 +849,17 @@ def export_to_excel(
         metadata = pd.DataFrame(metadata_rows)
         write_table(writer, "Metadados", metadata)
     return config.output_workbook_path
+
+
+def export_long_outputs(grouped_data: dict[str, pd.DataFrame], config: PipelineConfig) -> tuple[Path, Path]:
+    long_frame = build_long_municipio_divisao(grouped_data)
+    LOGGER.info("Gerando saida long em %s", config.output_long_workbook_path)
+    with pd.ExcelWriter(config.output_long_workbook_path, engine="xlsxwriter") as writer:
+        write_table(writer, "Municipio_Divisao_Long", long_frame)
+
+    LOGGER.info("Gerando saida long CSV em %s", config.output_long_csv_path)
+    long_frame.to_csv(config.output_long_csv_path, index=False, encoding="utf-8-sig")
+    return config.output_long_workbook_path, config.output_long_csv_path
 
 
 def export_to_sqlite(
@@ -902,7 +977,9 @@ def run_pipeline(config: PipelineConfig) -> Path:
 
     stats_df = pd.DataFrame(stats_rows).sort_values("ano_referencia").reset_index(drop=True)
     export_to_sqlite(grouped_data_final, negative_grouped_data_final, stats_df, config)
-    return export_to_excel(grouped_data_final, negative_grouped_data_final, stats_df, config)
+    export_to_excel(grouped_data_final, negative_grouped_data_final, stats_df, config)
+    long_workbook_path, _ = export_long_outputs(grouped_data_final, config)
+    return long_workbook_path
 
 
 def build_parser() -> argparse.ArgumentParser:

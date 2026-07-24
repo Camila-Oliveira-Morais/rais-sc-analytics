@@ -17,11 +17,11 @@
 
 ## Verificações funcionais mínimas
 
-- Rodar `python .\scripts\run_rais_sc.py --help`
-- Rodar `python .\scripts\run_remuneracao_media_sc.py --help`
-- Rodar `python .\scripts\run_remuneracao_industrial_cbo_ocupacao_sc.py --help`
-- Rodar `python .\scripts\create_validacao_remuneracao_media_ano.py --help`
-- Rodar `python .\scripts\create_orientacoes_usuario_final_doc.py --help`
+- Rodar `python .\scripts\estabelecimentos\run_rais_sc.py --help`
+- Rodar `python .\scripts\remuneracao\run_remuneracao_media_sc.py --help`
+- Rodar `python .\scripts\remuneracao\run_remuneracao_industrial_cbo_ocupacao_sc.py --help`
+- Rodar `python .\scripts\remuneracao\create_validacao_remuneracao_media_ano.py --help`
+- Rodar `python .\scripts\documentacao\create_orientacoes_usuario_final_doc.py --help`
 
 ## Conferência de dados auxiliares
 

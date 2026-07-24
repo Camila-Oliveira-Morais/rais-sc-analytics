@@ -37,19 +37,19 @@ Verifique se estes arquivos estão disponíveis:
 #### Consolidação de estabelecimentos
 
 ```powershell
-.\venv\Scripts\python.exe .\scripts\run_rais_sc.py --years 2022 2023 2024
+.\venv\Scripts\python.exe .\scripts\estabelecimentos\run_rais_sc.py --years 2022 2023 2024
 ```
 
 #### Remuneração industrial por CBO ocupação
 
 ```powershell
-.\venv\Scripts\python.exe .\scripts\run_remuneracao_industrial_cbo_ocupacao_sc.py
+.\venv\Scripts\python.exe .\scripts\remuneracao\run_remuneracao_industrial_cbo_ocupacao_sc.py
 ```
 
 #### Geração de validação
 
 ```powershell
-.\venv\Scripts\python.exe .\scripts\create_validacao_remuneracao_media_ano.py
+.\venv\Scripts\python.exe .\scripts\remuneracao\create_validacao_remuneracao_media_ano.py
 ```
 
 ## Arquivos entregues ao usuário final

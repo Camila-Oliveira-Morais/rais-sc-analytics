@@ -10,7 +10,7 @@ import pandas as pd
 
 LOGGER = logging.getLogger("remuneracao_industrial_cbo_ocupacao_sc")
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 INPUT_FILE = PROJECT_ROOT / "data" / "raw" / "2024_vinc_sul" / "extracted" / "RAIS_VINC_PUB_SUL.COMT"
 CNAE_DIMENSION_FILE = PROJECT_ROOT / "data" / "cnae_dimensao.xlsx"
 MUNICIPALITY_REFERENCE_FILE = PROJECT_ROOT / "data" / "reference" / "municipios_sc_mesorregioes.csv"

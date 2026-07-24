@@ -13,7 +13,7 @@ import py7zr
 
 LOGGER = logging.getLogger("remuneracao_3112_cbo_subclasse_sc")
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 CNAE_DIMENSION_FILE = PROJECT_ROOT / "data" / "cnae_dimensao.xlsx"
 CBO_DICTIONARY_FILE = PROJECT_ROOT / "data" / "dict" / "dicionario_cbo.xlsx"
 OUTPUT_DIR = PROJECT_ROOT / "data" / "output"
